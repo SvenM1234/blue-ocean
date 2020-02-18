@@ -1,0 +1,130 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+body{
+    overflow-x: hidden;
+}
+
+ .header-nav{
+    background-color: #dfdfdf;
+    min-height: 90px;
+    border-bottom: 5px solid #00a4ae !important;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%; 
+    margin-bottom: 9px !important;
+ }
+
+ #header .header-top{
+    padding-bottom: 5px;
+ }
+
+
+ .header-top .container .row .col-md-10{
+     width: 100%;
+ }
+
+ .right-nav{
+    float: right;
+    width: 41.66667%;
+ }
+
+.top-menu .sub-menu{
+    min-width: 0% !important;
+    width: fit-content !important;
+    width: -moz-fit-content !important;
+}
+
+
+ #wrapper{
+     background-image: url('ol.jpg');
+     background-size: cover;
+     padding-bottom: 2%;
+ }
+
+ #wrapper .container{
+    background-color: whitesmoke;
+    border-radius: 35px;
+    padding: 1.5%;
+ }
+
+ #carousel{
+     margin-bottom: 0!important;
+ }
+
+ #carousel .carousel-inner{
+    margin-bottom: 0!important;
+    max-height: 440px;
+    height: 30vw;
+ }
+
+ .carousel-item{
+    border-bottom: 2px solid #00a4ae !important;
+ }
+
+ .carousel .carousel-item figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+ .carousel .carousel-item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+ .ui-autocomplete-input{
+     border-radius: 25px;
+ }
+
+ .products-section-title{
+     color: #00a4ae;
+ }
+
+.products{
+    justify-content: center !important;
+} 
+
+ #_desktop_logo{
+     border-radius: 50%;
+ }
+
+.product-thumbnail img{
+    border-radius: 50%;
+}
+
+.product-thumbnail img:hover{
+    border-radius: 0%;
+    transition: ease 1s;
+}
+
+.highlighted-informations{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;  
+}
+
+.product-description{
+    border-bottom: 4px solid #00a4ae;
+}
+
+.all-product-link{
+    color: #00a4ae !important;
+}
+
+.footer-container .wrapper{
+    border-left: 4px solid #00a4ae !important;
+    
+}
+
+.block-category{
+    border-left: 4px solid #00a4ae !important;
+}
+
+#search_filters .ui-widget-header{
+    background-color:  #00a4ae;
+}
